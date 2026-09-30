@@ -1,0 +1,14 @@
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Operating System files
+.DS_Store
+Thumbs.db
+dekstop.ini
+
+#log files
+*.log

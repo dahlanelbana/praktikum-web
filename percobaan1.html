@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <h1>Sistem Informasi Data  Mahasiswa - Praktikum 1 – Kelas C</h1>
+    <p>Sistem ini mengenai daftar mahasiswa PSTI</p>
+    <img src ="foto.jpeg" alt ="foto.jpeg" widht="400" height="150 ">
+
+   </header> 
+<hr>
+<nav>
+    <ul>
+        <li><a href = informasi> informasi</a> </li>
+        <li><a href = daftar-mahasiswa>daftar mahasiswa</a></li>
+        <li><a href = form-tambah>tambah mahasiswa baru</a></li>
+    </ul></nav>
+<hr>
+<main>
+    <section id = informasi>
+        <h1>informasi sistem</h1>
+        <p>Informasi dasar website daftar mahasiswa</p>
+        <article>
+            <h3> Gunakan website untuk cek data mahasiswa</h3>
+        </article>
+
+    </section>
+<hr> 
+<section id = daftar-mahasiswa>
+    <h2>Daftar mahasiswa</h2>
+    <p>Berikut adalah daftar mahasiswa aktif saat ini </p>
+    <table border = "1", cellpadding = "8",cellspacing = "0">
+        <thead>
+            <tr>
+                <th>no</th>
+                <th>foto</th>
+                <th>npm</th>
+                <th>nama lengkap</th>
+                <th>program studi</th>
+                <th>angkatan</th>
+                <th>email</th>
+    
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><img  src ="foto.jpeg" alt ="foto.jpeg" widht="400" height="150 "></td>
+                <td>2415061106</td>
+                <td>M.lathif dahlan albana</td>
+                <td>PSTI</td>
+                <td>2024</td>
+                <td>dahlanelbana@gmail.com</td>
+            </tr>
+            <tr> <td>2</td>
+                <td><img  src ="foto.jpeg" alt ="foto.jpeg" widht="400" height="150 "></td>
+                <td>2415061106</td>
+                <td>M.lathif dahlan albana</td>
+                <td>PSTI</td>
+                <td>2024</td>
+                <td>dahlanelbana@gmail.com</td></tr>
+                 <tr> <td>2</td>
+                <td><img  src ="foto.jpeg" alt ="foto.jpeg" widht="400" height="150 "></td>
+                <td>2415061106</td>
+                <td>M.lathif dahlan albana</td>
+                <td>PSTI</td>
+                <td>2024</td>
+                <td>dahlanelbana@gmail.com</td></tr>
+        </tbody>
+
+    </table> 
+</section> 
+<section id = from-tambah>
+<h2> Tambah mahasiswa baru</h2>
+<p> masukkan data yang ingin ditambah</p>
+<form action = "#" method = "post">
+    <fieldset> 
+        <legend> Form untuk menambah kan data mahasiswa baru </legend>
+     <p>
+        <label for = "npm"> nomor pokok mahasiswa (NPM) : </label>
+        <br> <input type = text id = "npm" name = "npm" placeholder = "2415061106" pattern = "[0-9]{8,19}" title = "NPM harus berupa angka 8-12 digit">
+        
+
+
+     </p>
+
+</form>
+</section>>
+
+</section>  
+</main>
+
+</body>
+</html>
